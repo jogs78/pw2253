@@ -4,8 +4,28 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Prueba 001</title>
+ <script src="script.js"></script> 
+
 </head>
 <body>
- Hola esta es una prueba
+formulario de registro:
+<form >
+ <label for='nombre'>nombre</label>
+ <input type='text' name='nombre' id='nombre'><br>
+ <label for='apat'>apellido paterno</label>
+ <input type='text' name='apat' id='apat'><br>
+ <label for='amat'>apellido materno</label>
+ <input type='text' name='amat' id='amat'><br>
+ <label for='estudia'>estudia</label>
+ SI<input type="radio" name="esutida" value="si" id="esutidas" onclick="mostrar();">
+ NO<input type="radio" name="esutida" value="no" id="esutidan" onclick="ocultar();">
+ <div id="escolares" style="display:none;">
+  <label for='grado'">grado</label>
+  <input type='text' name='grado' id='grado'><br>
+  <label for='grupo'>grupo</label>
+  <input type='text' name='grupo' id='grupo'><br>
+
+ </div>
+</form>
 </body>
 </html>
